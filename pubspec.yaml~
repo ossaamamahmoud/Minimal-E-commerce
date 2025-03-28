@@ -1,0 +1,54 @@
+name: payment
+description: "A new Flutter project."
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^9.1.0
+  equatable: ^2.0.7
+  dio: ^5.8.0+1
+  hydrated_bloc: ^10.0.0
+  path_provider: ^2.1.5
+  flutter_screenutil: ^5.9.3
+  flutter_native_splash: ^2.4.5
+  flutter_launcher_icons: ^0.14.3
+  pretty_dio_logger: ^1.4.0
+  dart_either: ^2.0.0
+  get_it: ^8.0.3
+  webview_flutter: ^4.10.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Poppins-Bold
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+    - family: Poppins-Regular
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
