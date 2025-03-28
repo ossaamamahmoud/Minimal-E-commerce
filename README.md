@@ -1,16 +1,11 @@
-# payment
+# Minimal E-Commerce App
 
-A new Flutter project.
+A responsive Flutter e-commerce app built on MVVM architecture. Featuring over 2,500 products, seamless cart/favorites functionality, and robust payment integrations (Stripe and Paymob: card, kiosk, mobile wallets).
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Browse through 2,500+ products.**
+- **Cart & Favorites:** Easily add items to your cart or favorites.
+- **Payment Integrations:** Secure payment options via Stripe and Paymob (card, kiosk, mobile wallets).
+- **Responsive Design:** Optimized for a smooth experience on all devices.
+- **MVVM Architecture:** Ensures maintainability and scalability.
